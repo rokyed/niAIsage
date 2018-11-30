@@ -1,0 +1,22 @@
+{
+  "name": "niaisage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokyed/niAIsage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rokyed/niAIsage/issues"
+  },
+  "homepage": "https://github.com/rokyed/niAIsage#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^0.1.21"
+  }
+}
