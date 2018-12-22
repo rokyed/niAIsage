@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rokyed/niAIsage#readme",
   "dependencies": {
-    "@tensorflow/tfjs-node-gpu": "^0.1.21"
+    "@tensorflow/tfjs-node": "^0.1.21",
+    "@tensorflow/tfjs-node-gpu": "^0.1.19"
   }
 }

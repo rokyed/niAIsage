@@ -1,10 +1,11 @@
+require('@tensorflow/tfjs-node-gpu');  // Use '@tensorflow/tfjs-node-gpu' if running with GPU.
 const tf = require('@tensorflow/tfjs');
 
-// Load the binding:
-require('@tensorflow/tfjs-node-gpu');  // Use '@tensorflow/tfjs-node-gpu' if running with GPU.
 
+async function bla() {
 const model = tf.sequential();
 
+console.log(tf.getBackend())
 
 model.add(tf.layers.dense({
 	units: 8,
@@ -38,5 +39,9 @@ ys.print();
 // Train the model
 await model.fit(xs, ys, {
 	batchSize: 1,
-	epochs: 5000
+	epochs: 50000
 });
+
+}
+
+bla()
